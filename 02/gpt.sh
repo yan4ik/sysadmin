@@ -15,5 +15,10 @@ mount_fs() {
     for i in $(seq 1 5); do mount /dev/md0p$i /raid/part$i; done
 }
 
+save_mount() {
+    cat /etc/mtab | fgrep /raid/part >> /etc/fstab
+}
+
 create_gpt_partitions
 mount_fs
+save_mount
