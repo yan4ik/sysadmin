@@ -172,4 +172,14 @@ file1  file10  file2  file3  file4  file5  file6  file7  file8  file9  vagrant
 [root@lvm ~]# ls /home
 file1   file11  file13  file15  file17  file19  file20  file4  file6  file8  vagrant
 file10  file12  file14  file16  file18  file2   file3   file5  file7  file9
+[root@lvm ~]# df
+Filesystem                         1K-blocks   Used Available Use% Mounted on
+/dev/mapper/VolGroup00-LogVol00      8378368 758644   7619724  10% /
+devtmpfs                              111876      0    111876   0% /dev
+tmpfs                                 120692      0    120692   0% /dev/shm
+tmpfs                                 120692   4516    116176   4% /run
+tmpfs                                 120692      0    120692   0% /sys/fs/cgroup
+/dev/mapper/vg_var-lv_var             943128 118604    759400  14% /var
+/dev/sda2                            1038336  62216    976120   6% /boot
+/dev/mapper/VolGroup00-LogVol_Home   2086912  32992   2053920   2% /home
 ```
