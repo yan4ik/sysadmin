@@ -1,7 +1,7 @@
 # ДЗ 3
 
 
-```sh
+```ShellSession
 > vagrant up
 ...
 > vagrant ssh
