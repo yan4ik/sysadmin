@@ -1,5 +1,9 @@
 # ДЗ 4
 
+Скрипты:
+ * `nfss_script.sh` - провижнит сервер.
+ * `nfsc_script.sh` - провижнит клиент.
+
 Фрагмент консоли клиента:
 ```ShellSession
 > vagrant ssh nfsc
